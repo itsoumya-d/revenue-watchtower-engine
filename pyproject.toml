@@ -1,0 +1,9 @@
+[project]
+name = "revenue-watchtower-engine"
+version = "0.1.0"
+description = "Deterministic approval rule compiler, idempotent billing collections agent, and contract-intake AI eval harness"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
