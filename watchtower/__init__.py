@@ -19,6 +19,12 @@ from .billing_evals import (
     ContractExtraction,
     evaluate_contract_extractions,
 )
+from .policy_spec import (
+    CompiledPolicyProduct,
+    PolicyEvaluationResult,
+    PolicyProductCompiler,
+    PolicyProductSpec,
+)
 
 __all__ = [
     "ApprovalPolicy",
@@ -26,12 +32,16 @@ __all__ = [
     "ApprovalTrace",
     "CadenceStep",
     "CollectionDecision",
+    "CompiledPolicyProduct",
     "Condition",
     "ContractEvalCase",
     "ContractEvalReport",
     "ContractExtraction",
     "DealContext",
     "InvoiceRecord",
+    "PolicyEvaluationResult",
+    "PolicyProductCompiler",
+    "PolicyProductSpec",
     "compile_rule_from_untrusted_llm",
     "evaluate_approval_policy",
     "evaluate_contract_extractions",
